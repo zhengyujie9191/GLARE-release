@@ -1,0 +1,8 @@
+OVCamo_TR_IMAGE_DIR: <path to image directory of the training set>
+OVCamo_TR_MASK_DIR: <path to mask directory of the training set>
+OVCamo_TR_DEPTH_DIR: <path to depth map directory of the training set>
+OVCamo_TE_IMAGE_DIR: <path to image directory of the testing set>
+OVCamo_TE_MASK_DIR: <path to mask directory of the testing set>
+OVCamo_CLASS_JSON_PATH: <path of the json file class_info.json>
+OVCamo_SAMPLE_JSON_PATH: <path of the json file sample_info.json>
+
