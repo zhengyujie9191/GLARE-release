@@ -51,6 +51,18 @@ python ./main.py \
 
 ---
 
+## Pretrained Checkpoint
+
+Download the released checkpoint using `gdown`:
+
+```bash
+pip install gdown
+mkdir -p ckpt
+gdown 124_QULmTNLudavpsiVCdqruKH5JOP_u3 -O ckpt/release-ckpt.pth
+```
+
+---
+
 ## Evaluate the Released Checkpoint
 
 ```bash
@@ -61,14 +73,3 @@ python ./main.py \
   --load-from ./ckpt/release-ckpt.pth
 ```
 
-## Pretrained Checkpoint
-
-Download the released checkpoint using `gdown`:
-
-```bash
-pip install gdown
-
-mkdir -p ckpt
-
-gdown 124_QULmTNLudavpsiVCdqruKH5JOP_u3 -O ckpt/release-ckpt.pth
-```
