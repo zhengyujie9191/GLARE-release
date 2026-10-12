@@ -73,3 +73,13 @@ python ./main.py \
   --load-from ./ckpt/release-ckpt.pth
 ```
 
+## Acknowledgement
+This project is based on and modifies the official [OVCamo implementation](https://github.com/lartpang/OVCamo). We thank the original authors for making their code publicly available.
+
+```bibtex
+@inproceedings{OVCOS_ECCV2024,
+  title={Open-Vocabulary Camouflaged Object Segmentation},
+  author={Pang, Youwei and Zhao, Xiaoqi and Zuo, Jiaming and Zhang, Lihe and Lu, Huchuan},
+  booktitle=ECCV,
+  year={2024},
+}
